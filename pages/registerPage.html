@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Register</title>
     <link rel="stylesheet" href=".\css\loginStyle.css">
 </head>
 <body>
     <div class="login-container">
         <h2>Login</h2>
         <form id="loginForm" onsubmit="return loginUser()">
-            <input type="text" id="username" placeholder="Username" required>
+            <input type="text" id="firstname" placeholder="FirstName" required>
+            <input type="text" id="lastname" placeholder="LastName" required>
+            <input type="text" id="emailid" placeholder="EmailId" required>
+            <input type="text" id="userid" placeholder="UserId" required>
+            <input type="text" id="org_name" placeholder="OrganizationName" required>
             <input type="password" id="password" placeholder="Password" required>
             <button type="submit">Login</button>
         </form>
